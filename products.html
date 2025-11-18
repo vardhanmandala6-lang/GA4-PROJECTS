@@ -12,13 +12,15 @@
     nav a { color:#cbd5e1; margin-left:20px; text-decoration:none; font-weight:600; }
 
     .section { max-width:1100px; margin:40px auto; padding:0 20px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:22px; }
 
-    .card { background:white; padding:16px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06); text-align:center; }
-    .card img { width:100%; height:200px; object-fit:cover; border-radius:10px; }
-    .price { font-size:20px; color:#2563eb; font-weight:bold; }
+    .card { background:white; padding:16px; border-radius:14px; box-shadow:0 8px 20px rgba(0,0,0,0.08); text-align:center; transition:0.3s; }
+    .card:hover { transform:translateY(-4px); box-shadow:0 12px 30px rgba(0,0,0,0.12); }
 
-    button { padding:10px 14px; background:#2563eb; color:white; border:0; border-radius:10px; cursor:pointer; margin-top:12px; font-weight:bold; }
+    .card img { width:100%; height:200px; object-fit:cover; border-radius:12px; }
+
+    .price { font-size:20px; color:#2563eb; font-weight:bold; margin:8px 0; }
+    button { padding:10px 14px; background:#2563eb; color:white; border:0; border-radius:10px; cursor:pointer; font-weight:bold; width:90%; margin-top:12px; }
   </style>
 </head>
 <body>
@@ -37,42 +39,42 @@
   <div class="grid">
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=800" />
       <h3>Earbuds Pro</h3>
       <div class="price">₹1,299</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1606220945770-b5f88a66f149?q=80&w=800" />
       <h3>Bass Boost X</h3>
       <div class="price">₹999</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1611391481438-7087dc3e4c45?q=80&w=800" />
       <h3>AirPods Style</h3>
       <div class="price">₹799</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?q=80&w=800" />
       <h3>SportBuds Lite</h3>
       <div class="price">₹899</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1616469829945-7e49ab085c83?q=80&w=800" />
       <h3>NoiseCancel Ultra</h3>
       <div class="price">₹1,499</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300x200" />
+      <img src="https://images.unsplash.com/photo-1612531383945-05f3fb0f4738?q=80&w=800" />
       <h3>Gaming Pods</h3>
       <div class="price">₹1,099</div>
       <button onclick="location.href='payment.html'">Buy Now</button>
